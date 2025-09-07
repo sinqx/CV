@@ -23,6 +23,12 @@ async function setLanguage(lang) {
   const langButton = document.querySelector(".lang-button");
   langButton.textContent = lang === "en" ? "Rus" : "Eng";
   langButton.setAttribute("data-lang", lang === "en" ? "ru" : "en");
+
+  const resumeLink = document.getElementById("resume-link");
+  if (resumeLink) {
+    resumeLink.href =
+      lang === "en" ? "./assets/resume_eng.pdf" : "./assets/resume_ru.pdf";
+  }
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

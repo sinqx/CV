@@ -15,8 +15,7 @@
         <img id="profile-pic" src="./assets/elements/profile_pic.png" />
         <div>
           <h1 id="user-name" data-lng="user-name">Aspekov Artur</h1>
-          <p id="bio1" data-lng="bio1"></p>
-          <p id="bio2" data-lng="bio2"></p>
+          <p>Software Engineer | Golang | Python Flask | Vue</p>
           <p id="email" data-lng="email">sinqxpls@gmail.com</p>
         </div>
       </section>
@@ -72,7 +71,8 @@
               height="26"
             />
             <a
-              href="./assets/resume.pdf"
+              id="resume-link"
+              href="./assets/resume_eng.pdf"
               data-lng="socials-download"
               target="_blank"
             >
@@ -82,12 +82,9 @@
       </section>
 
       <section class="section--page">
-        <h2 data-lng="skills-title"></h2>
-        <ul id="qualifications--list">
-          <li data-lng="skills-1"></li>
-          <li data-lng="skills-2"></li>
-          <li data-lng="skills-3"></li>
-        </ul>
+        <h2 data-lng="summary-title"></h2>
+
+        <p data-lng="summary"></p>
       </section>
 
       <section class="section--page">
@@ -95,22 +92,22 @@
 
         <div id="wrapper--techstack__items">
           <div class="card--techstack">
-            <span>Golang, Python, JavaScript, C#, Java</span>
+            <span>Golang, Python, JavaScript, C#</span>
           </div>
           <div class="card--techstack">
-            <span>Flask, FastAPI, net/http, ASP.NET core</span>
+            <span>Flask, FastAPI, Gin, GORM</span>
           </div>
           <div class="card--techstack">
-            <span>Vue.js, React, HTML/CSS</span>
+            <span>Vue.js, React, HTML/CSS, Tailwind</span>
           </div>
           <div class="card--techstack">
-            <span>SQL, PostgreSQL, MsSQL, DBeaver</span>
+            <span>PostgreSQL, MongoDB, MsSQL</span>
           </div>
           <div class="card--techstack">
-            <span>Git, Docker, Postman</span>
+            <span>Git, Docker, Redis, Postman</span>
           </div>
           <div class="card--techstack">
-            <span>Typesense, OAuth, Tailwind</span>
+            <span>HTTP/gRPC, REST, Unit testing</span>
           </div>
         </div>
       </section>
@@ -128,6 +125,8 @@
             <li data-lng="experience-globalify-1"></li>
             <li data-lng="experience-globalify-2"></li>
             <li data-lng="experience-globalify-3"></li>
+            <li data-lng="experience-globalify-4"></li>
+            <li data-lng="experience-globalify-5"></li>
           </ul>
         </div>
 
@@ -144,6 +143,7 @@
             <li data-lng="experience-nsc-2"></li>
             <li data-lng="experience-nsc-3"></li>
             <li data-lng="experience-nsc-4"></li>
+            <li data-lng="experience-nsc-5"></li>
           </ul>
         </div>
 
@@ -158,11 +158,12 @@
           <ul>
             <li data-lng="experience-envoys-1"></li>
             <li data-lng="experience-envoys-2"></li>
+            <li data-lng="experience-envoys-3"></li>
+            <li data-lng="experience-envoys-4"></li>
           </ul>
         </div>
-
-        <div class="line-break"></div>
       </section>
+      <div class="line-break"></div>
 
       <section class="section--page">
         <h2 data-lng="education-title"></h2>
@@ -193,6 +194,29 @@
           </ul>
         </div>
       </section>
+      <div class="line-break"></div>
+      <section class="section--page">
+        <h2 data-lng="language"></h2>
+        <div class="lang-container">
+          <div class="lang-column">
+            <div class="language">
+              <span class="language-name" data-lng="lang-rus"></span> Native
+            </div>
+          </div>
+          <div class="lang-column">
+            <div class="language">
+              <span class="language-name" data-lng="lang-eng"></span> Proficient
+            </div>
+          </div>
+          <div class="lang-column">
+            <div class="language">
+              <span class="language-name" data-lng="lang-ger"></span>
+              Intermediate
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="line-break"></div>
     </div>
     <div id="theme-switcher">
       <button class="theme-button" data-theme="light">
